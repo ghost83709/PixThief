@@ -1,7 +1,6 @@
 # PixThief
 
-PixThief is a .NET 8 console application that crawls a single page or an entire domain and downloads all images it can find. 
-It supports stealthy crawling, smart delays, and optional image format conversion.
+PixThief is a .NET 8 console application that crawls a single page or an entire domain and downloads all images it can find. It supports stealthy crawling, smart delays, and optional image format conversion.
 
 ## Features
 
@@ -22,6 +21,26 @@ It supports stealthy crawling, smart delays, and optional image format conversio
 
 - .NET 8 SDK
 - Windows x64 (project is configured with `win-x64` as runtime identifier)
+
+## Downloads
+
+The easiest way to use PixThief is to grab a prebuilt binary:
+
+- **Windows x64**: download the latest `PixThief_win-x64_*.zip` from  
+  [📦 GitHub Releases — Latest](https://github.com/Henr1ko/PixThief/releases/latest)
+
+Usage from the downloaded build:
+
+1. Download the ZIP from the latest release.
+2. Extract it to a folder (for example: `C:\\Tools\\PixThief\\`).
+3. Open a terminal/PowerShell in that folder.
+4. Run:
+
+   ```bash
+   PixThief.exe <url> [options]
+   ```
+
+If you prefer to build from source instead, see the next section.
 
 ## Building
 
@@ -111,7 +130,7 @@ PixThief.exe https://example.com/gallery --convert-to jpg --jpeg-quality 85
 
 ## Notes
 
-PixThief does not enforce any particular crawling policy. How you use this tool is your responsibility. 
+PixThief does not enforce any particular crawling policy. How you use this tool is your responsibility.  
 Make sure you understand and respect the laws and terms that apply in your jurisdiction and to the sites you interact with.
 
 ## License
