@@ -2,7 +2,6 @@
 
 **Version**: 2.0 – Complete TUI Rebuild  
 **Build**: November 25, 2025  
-**Status**: Production ready
 
 PixThief is a .NET 8-powered image web scraper with a full-screen terminal UI, advanced crawling logic,
 and lots of filtering options. Point it at a page (or a whole domain), tweak a few settings, and watch
